@@ -1,0 +1,37 @@
+.producto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonContador {
+    font-size: 14px;
+    display: inline-flex;
+    justify-content: center;   
+    width: auto;
+    color: #333; 
+}
+.botonModificarCantidad {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 14px;
+} 
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonComprar {
+    display: flex;
+    justify-content: center; 
+    background-color: #3a7fe7;
+    color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.botonComprar:hover {
+    background-color: #2968C8;
+}

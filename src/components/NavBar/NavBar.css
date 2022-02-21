@@ -1,0 +1,36 @@
+.NavBar {
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: #FFF159;
+  }
+
+.NavMenu {
+    display: inline-flex;
+    justify-content: space-around;   
+    font-size: 14px;
+    width: auto;
+    text-decoration: none;
+    color: #333;   
+  }
+
+  .carrito {
+    display: inline-flex;
+    align-items: center;
+  }
+ div a { 
+   padding: 30px;
+ }
+
+ button {
+    background-color: #FFF159;
+    text-decoration: none;
+    color: #333;  
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    border: none;
+    border-style: none;
+   }
