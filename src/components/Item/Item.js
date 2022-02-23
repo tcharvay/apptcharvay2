@@ -1,5 +1,6 @@
 import ItemCount from "../ItemCount/ItemCount";
 import './Item.css'
+import {Link} from 'react-router-dom'
 const Item = ( {product } )=>{
 
     const onAdd = (count) => {
@@ -19,6 +20,9 @@ const Item = ( {product } )=>{
                     <p>{ product.description }</p>
                     <ItemCount stock={ 5 } initial={ 1 } onAdd={ onAdd }/>
                 </div>
+                <footer className="ItemFooter">
+                    <Link to={`/detail/${product.id}`}>Ver detalle</Link>
+                </footer>
            </div>
         </>
     );

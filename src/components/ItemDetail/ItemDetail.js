@@ -19,8 +19,9 @@ export const ItemDetail = ( {product } )=>{
                         <h2> USD { product.price }</h2>
                         <div className='descrpcionProducto'  >
                         <p>{ product.description }</p>
+                        <p>Categoria: { product.category }</p>
                         <ItemCount stock={ 5 } initial={ 1 } onAdd={ onAdd }/>
-                </div>
+                        </div>
                     </div>
             </div>
         </>
